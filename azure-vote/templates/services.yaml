@@ -19,6 +19,6 @@ metadata:
 spec:
   type: {{ .Values.serviceType }}
   ports:
-  - port: 90
+  - port: 9090
   selector:
     app: vote-front-{{.Release.Name}}

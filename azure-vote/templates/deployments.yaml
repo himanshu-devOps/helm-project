@@ -43,7 +43,7 @@ spec:
         image: neilpeterson/azure-vote-front:v3
         imagePullPolicy: Always
         ports:
-        - containerPort: 90
+        - containerPort: 9090
         resources:
           requests:
             cpu: 250m
